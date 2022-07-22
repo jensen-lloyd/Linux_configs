@@ -189,3 +189,6 @@ bindsym $mod+c exec bash ~/.lock.sh && feh --bg-fill --randomize ~/Other/Wallpap
 
 #Background
 bindsym $mod+space exec feh --bg-fill --randomize ~/Other/Wallpapers/*
+
+#Screenshot
+bindsym $mod+z exec flameshot gui
