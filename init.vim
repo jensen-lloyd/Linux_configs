@@ -5,7 +5,7 @@ set shiftwidth=4
 
 
 set autoindent
-set textwidth=80
+"set textwidth=120
 
 
 nnoremap <up> <nop>
@@ -13,7 +13,7 @@ nnoremap <down> <nop>
 nnoremap <left> <nop>
 nnoremap <right> <nop>
 
-inoremap ;; <Esc>
+inoremap '' <Esc>
 
 call plug#begin()
 Plug 'dart-lang/dart-vim-plugin'
